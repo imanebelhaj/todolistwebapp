@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="todo.css">
+    <!-- fontawesome -->
+    <!-- <script src="todo.js" crossorigin="anonymous"></script> -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+   <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <video  autoplay loop muted >
+        <source src="pinkmotion.mp4" type="video/mp4">    
+    </video>
+    <div id="todos">
+        <div class="heading">
+            <h1>Your To-do List :)</h1>
+        </div>
+        <div class="todo-input-container">
+            <input class="todo_input" type="text" placeholder="Add Task...">
+            <i class="fas fa-plus add-item">+</i>
+            <i class="fas fa-trash-alt add-item deleteBtn"  onclick="deleteAllElements()" ><font color="black"> &#128465</font> </i>
+        </div>  
+    </div>
+    <script src="todo.js"></script>
+    
+
+
+    <nav>
+        <!-- <p id="add">add to list +</p> 
+        <p id="clear">empty list &#128465 </p> -->
+        <p id="done">task is done &#9745</p>
+        <p id="modify">modify content &#x1F58A</p>
+        <p id="delete">delete task   &#9746</p>
+        
+        </nav>
+</body>
+</html> 
