@@ -6,7 +6,7 @@ Welcome to the To-Do List Website! This project is a simple web application wher
 ## Features 🚀
 
 - **Task Management:** Add, modify, and delete tasks as per your requirement.
-- **HTML and CSS:** Built using only HTML and CSS for simplicity and ease of understanding.
+- **HTML, CSS & JS Magic:** Crafted using the enchanting trio of HTML, CSS, and JavaScript.
 - **Button Sound Effects:** Enjoy interactive button sound effects for a delightful user experience.
 - **Video Background:** Engage with a captivating video background while managing your tasks.
 - **Spotify Playlist:** Explore the playlist that the developer used to listen to while coding this project.
